@@ -3,17 +3,17 @@ package model;
 public class Curso {
     private Long id;
     private String nombre;
-    private String descripción;
+    private String descripcion;
     private Integer numeroCreditos;
     private Integer version;
     
     public Curso() {
     }
 
-    public Curso(Long id, String nombre, String descripción, Integer numeroCreditos, Integer version) {
+    public Curso(Long id, String nombre, String descripcion, Integer numeroCreditos, Integer version) {
         this.id = id;
         this.nombre = nombre;
-        this.descripción = descripción;
+        this.descripcion = descripcion;
         this.numeroCreditos = numeroCreditos;
         this.version = version;
     }
@@ -34,12 +34,12 @@ public class Curso {
         this.nombre = nombre;
     }
 
-    public String getDescripción() {
-        return descripción;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public void setDescripción(String descripción) {
-        this.descripción = descripción;
+    public void setDescripcion(String descripción) {
+        this.descripcion = descripción;
     }
 
     public Integer getNumeroCreditos() {
@@ -60,7 +60,7 @@ public class Curso {
 
     @Override
     public String toString() {
-        return "Curso [id=" + id + ", nombre=" + nombre + ", descripción=" + descripción + ", numeroCreditos="
+        return "Curso [id=" + id + ", nombre=" + nombre + ", descripción=" + descripcion + ", numeroCreditos="
                 + numeroCreditos + ", version=" + version + "]";
     }
 

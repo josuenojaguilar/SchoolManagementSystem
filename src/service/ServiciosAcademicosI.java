@@ -10,7 +10,7 @@ public interface ServiciosAcademicosI {
 
     public void agregarCurso(Curso curso);
 
-    public void inscribirEstudianteCurso(Estudiante estudiante, Integer idCurso) throws EstudianteYaInscritoException;
+    public void inscribirEstudianteCurso(Estudiante estudiante, Long idCurso) throws EstudianteYaInscritoException;
 
-    public void desinscribirEstudianteCurso(Integer idEstudiante, Integer idCurso) throws EstudianteNoInscritoEnCursoException;
+    public void desinscribirEstudianteCurso(Long idEstudiante, Long idCurso) throws EstudianteNoInscritoEnCursoException;
 }
